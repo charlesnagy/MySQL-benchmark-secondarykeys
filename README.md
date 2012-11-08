@@ -1,3 +1,10 @@
+> select count(*) from query_times;
++----------+
+| count(*) |
++----------+
+|  4317935 |
++----------+
+
 > select qtype, avg(qtime), min(qtime), max(qtime) from query_times group by qtype;
 > +-------+-------------+------------+-------------+
 > | qtype | avg(qtime)  | min(qtime) | max(qtime)  |
