@@ -14,7 +14,7 @@ use threads;
 use threads::shared;
 
 my $user='root';
-my $password='meesicvu';
+my $password='XXXXXX';
 my $datadir='/mysql/dev/data';
 my @threads;
 my $max_rows = 2000000;
